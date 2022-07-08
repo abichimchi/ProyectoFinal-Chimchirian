@@ -1,0 +1,162 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.logoSube {
+  width: 12vw;
+  height: 9vh;
+  margin-left: 2rem;
+}
+
+#contenedor div {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: rgb(221 240 255);
+  border: 2px solid #00B4DB;
+  border-radius: 29px;
+  margin: 35px;
+  padding: 2rem;
+  color: #084298;
+}
+
+#div_formulario {
+  text-align: center;
+  padding: 3rem;
+  background: #00B4DB;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0083B0, #00B4DB);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 19px;
+}
+
+#div_formulario h1 {
+  color: white;
+}
+
+.form {
+  margin: 3rem;
+}
+
+.contenedor-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contenedor-cards div {
+  margin: 1rem;
+}
+
+.btn {
+  margin-left: 3rem;
+
+}
+
+.card-title {
+  margin-left: 4rem;
+}
+
+/* boton */
+.css-button-shadow-border-sliding--sand {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+  background: #adb5bd;
+  z-index: 1;
+}
+
+.css-button-shadow-border-sliding--sand:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.css-button-shadow-border-sliding--sand:after {
+  border-radius: 5px;
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+  transition: all 0.3s ease;
+  background-color: #ced4da;
+  right: 0;
+}
+
+.css-button-shadow-border-sliding--sand:active {
+  top: 2px;
+}
+
+header li {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.marketing div {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.principal {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('http://www.necochea.gov.ar/wp-content/uploads/2016/12/FOTO-SUBE-2.jpg');
+  background-size: cover;
+  opacity: 70%;
+}
+
+
+.input {
+  margin-left: auto;
+  margin-top: auto;
+}
+
+@media screen and (min-width:768px) {
+  #div_formulario {
+    width: 83vh;
+  }
+}
+
+.bodyViajes {
+  background-color: #035183;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.51'%3E%3Cpolygon fill='%230477b6' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%2304a1e9' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%2324c1fc' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%2356d6fd' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%2388e7fe' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23bbf4ff' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23EEFDFF' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* .container{
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+} */

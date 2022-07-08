@@ -1,0 +1,22 @@
+[
+    {
+        "km_max": 3,
+        "pasaje": 18,
+        "tarifa": 8.10
+    },
+    {
+        "km_max": 6,
+        "pasaje": 20,
+        "tarifa": 9
+    },
+    {
+        "km_max": 12,
+        "pasaje": 21,
+        "tarifa": 9.45
+    },
+    {
+        "km_max": 27,
+        "pasaje": 22,
+        "tarifa": 9.90
+    }
+]
